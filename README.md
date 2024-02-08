@@ -29,6 +29,10 @@ Using Scikit-Learn, models were developed to classify applicants as eligible or 
 
 Each model was evaluated using stratified K-Fold cross-validation with the area under the ROC curve as the primary metric. Feature importance analysis of the Random Forest model showed that credit history, Total income, and EMI were top predictors.
 
+----
+![](feature_plot.png)              
+----
+
 ## Conclusion
 
 In conclusion, Logistic regression can effectively determine home loan eligibility with 79% test accuracy followed by random forest which is close to 78% test accuracy. By operationalizing this system, Homestead Loans can automate real-time loan decisions and significantly scale its loan approval process.
