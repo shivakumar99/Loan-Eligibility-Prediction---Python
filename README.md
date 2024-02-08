@@ -19,6 +19,16 @@ The loan automation system uses machine learning algorithms to analyze all appli
 
 By using automated AI-based algorithms for real-time loan eligibility, Homestead Loans aims to provide quicker decisions to borrowers, scale loan approvals, tap underserved customer segments, and significantly grow its overall loan book. The algorithms will optimize loan offers and better manage lending risk for the long term by predictive segmentation of potential defaulters.
 
+## Data Dictionary
+
+Below are the details of features in the dataset:
+
+Categorical Features: Gender, Married, Dependents, Education, Self_Employed, Property_Area, Loan_Status 
+
+Numerical Features: ApplicantIncome, CoapplicantIncome, LoanAmount, Loan_Amount_Term, Credit_History
+
+The Train dataset contains 614 rows and 13 columns whereas the Test dataset contains 367 rows and 12 columns.
+
 ## Data Pipeline
 
 The loan application data was sourced from the Datahack Platform containing past application records. Using Pandas, the data was cleaned, processed, and structured into an analyzable format. Exploratory analysis was conducted using Seaborn visualizations to understand relationships. 
