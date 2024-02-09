@@ -29,6 +29,18 @@ Numerical Features: ApplicantIncome, CoapplicantIncome, LoanAmount, Loan_Amount_
 
 The Train dataset contains 614 rows and 13 columns whereas the Test dataset contains 367 rows and 12 columns.
 
+## Data Preparation
+
+The following data preparation activities were executed:
+
+Handling Missing Values: Not Applicable as no missing data
+
+Feature Encoding: Categorical variables encoded using OneHotEncoder from Scikit-Learn 
+
+Feature Scaling: All numerical features are scaled to a comparable range using StandardScalar 
+
+Train-Test Split: 30% test split using StratifiedKFold cross-validation
+
 ## Data Pipeline
 
 The loan application data was sourced from the Datahack Platform containing past application records. Using Pandas, the data was cleaned, processed, and structured into an analyzable format. Exploratory analysis was conducted using Seaborn visualizations to understand relationships. 
