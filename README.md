@@ -43,6 +43,10 @@ Each model was evaluated using stratified K-Fold cross-validation with the area 
 ![](feature_plot.png)              
 ----
 
+## Evaluation and Deployment
+
+The model evaluation indicates high and acceptable performance. For usage, the model can be integrated with Homestead’s application platforms via API allowing real-time eligibility decisions.
+
 ## Conclusion
 
 In conclusion, Logistic regression can effectively determine home loan eligibility with 79% test accuracy followed by random forest which is close to 78% test accuracy. By operationalizing this system, Homestead Loans can automate real-time loan decisions and significantly scale its loan approval process.
